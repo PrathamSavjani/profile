@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <script>
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault(); // Prevent the right-click menu
+    });
+  </script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Pratham Savjani</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <h2>I'm a passionate <span>Full Stack Developer</span> from India</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <!-- <li><a class="nav-link" href="#services">Services</a></li> -->
+          <li><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+
+        <a href="https://x.com/prathamsavjani" style="padding: 10px;"><svg xmlns="http://www.w3.org/2000/svg"
+            style="fill:white" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+            <path
+              d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z">
+            </path>
+          </svg></a>
+        <a href="https://github.com/prathamsavjani"><i class="bi bi-github"></i></a>
+        <a href="https://leetcode.com/prathamsavjani" style="padding: 10px;"><svg xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="leetcode" style="fill: white;">
+            <path
+              d="M22,14.355c0-0.742-0.564-1.346-1.26-1.346H10.676c-0.696,0-1.26,0.604-1.26,1.346s0.563,1.346,1.26,1.346H20.74C21.436,15.702,22,15.098,22,14.355z">
+            </path>
+            <path
+              d="M3.482,18.187l4.313,4.361C8.768,23.527,10.113,24,11.598,24c1.485,0,2.83-0.512,3.805-1.494l2.588-2.637c0.51-0.514,0.492-1.365-0.039-1.9c-0.531-0.535-1.375-0.553-1.884-0.039l-2.676,2.607c-0.462,0.467-1.102,0.662-1.809,0.662s-1.346-0.195-1.81-0.662l-4.298-4.363c-0.463-0.467-0.696-1.15-0.696-1.863c0-0.713,0.233-1.357,0.696-1.824l4.285-4.38c0.463-0.467,1.116-0.645,1.822-0.645s1.346,0.195,1.809,0.662l2.676,2.606c0.51,0.515,1.354,0.497,1.885-0.038c0.531-0.536,0.549-1.387,0.039-1.901l-2.588-2.636c-0.649-0.646-1.471-1.116-2.392-1.33l-0.034-0.007l2.447-2.503c0.512-0.514,0.494-1.366-0.037-1.901c-0.531-0.535-1.376-0.552-1.887-0.038L3.482,10.476C2.509,11.458,2,12.813,2,14.311C2,15.809,2.509,17.207,3.482,18.187z">
+            </path>
+          </svg></a>
+        <a href="https://hackerrank.com/prathamsavjani" style="padding: 10px;"><svg xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="hackerrank" style="fill: white;">
+            <path
+              d="M11.999,0C10.626,0,2.195,4.818,1.513,6c-0.682,1.182-0.686,10.819,0,12c0.686,1.181,9.115,6,10.486,6c1.371,0,9.8-4.824,10.487-6c0.686-1.176,0.686-10.83,0-12C21.799,4.83,13.371,0,11.999,0z M14.84,19.415v0.002c-0.188,0-1.939-1.677-1.8-1.814c0.041-0.041,0.296-0.069,0.832-0.086c0-1.23,0.028-3.215,0.045-4.046c0.002-0.095-0.021-0.161-0.021-0.274h-3.787c0,0.333-0.022,1.697,0.065,3.416c0.011,0.213-0.075,0.279-0.272,0.278c-0.48-0.001-0.96-0.005-1.44-0.004c-0.194,0-0.278-0.072-0.272-0.286c0.043-1.567,0.14-3.938-0.007-9.969V6.483C7.723,6.467,7.405,6.438,7.363,6.397C7.225,6.26,9,4.583,9.187,4.583c0.187,0,1.951,1.677,1.813,1.814c-0.041,0.041-0.374,0.07-0.795,0.086v0.148c-0.114,1.207-0.096,3.731-0.124,4.94h3.803c0-0.213,0.018-1.628-0.057-3.921c-0.005-0.159,0.046-0.242,0.199-0.244c0.525-0.004,1.049-0.006,1.575-0.003c0.164,0.001,0.216,0.081,0.213,0.252c-0.173,8.967-0.031,8.341-0.031,9.86c0.42,0.016,0.797,0.045,0.838,0.086C16.757,17.737,15.028,19.415,14.84,19.415z">
+            </path>
+          </svg></a>
+        <a href="https://linkedin.com/in/prathamsavjani" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://instagram.com/pratham.savjani" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://facebook.com/prathamsavjani" class="facebook"><i class="bi bi-facebook"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <canvas id="imageCanvas" class="img-fluid" style="border-radius: 15%;" width="400" height="465"></canvas>
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Computer Engineer &amp; Full Stack Developer</h3>
+          <p class="fst-italic">
+            I'm a computer engineer with a passion for crafting solutions and a knack for detail. I enjoy taking on
+            complex challenges and strive to create user-friendly softwares and websites.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13<sup>th</sup> May 2003</span>
+                </li>
+                <li><i class="bi bi-chevron-right"></i> <strong>University:</strong> <span>Darshan University (GTU
+                    affl.)</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <a class="noDecoration"
+                    href="tel:+917229020332"><span>Indian</span></a></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Jamnagar, Gujarat</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Batch (passout):</strong> <span>2024</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E. in Computer
+                    Engineering</span></li>
+                <li><i class="bi bi-chevron-right"></i><strong>Email:</strong> <a class="noDecoration"
+                    href="mailto:prathamsavjani99@gmail.com">prathamsavjani99@gmail.com</a></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            I'm a computer engineer with a specialization in crafting web and software solutions using Node.js,
+            React.js, and ASP.NET. I have a strong commitment to delivering user-friendly software, and I take complex
+            challenges with a meticulous approach. My journey in this field is marked by a continuous pursuit of
+            knowledge and growth, which fuels my dedication to contributing to impactful projects with and a genuine
+            desire to make a positive impact.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+      <div class="row justify-content-center align-items-center">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="600" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>LinkedIn Followers</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-braces"></i>
+            <span data-purecounter-start="0" data-purecounter-end="25000" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Lines Of Code</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Problems Solved</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">C++ <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Java <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">ReactJS <i class="val">72%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">C# (ASP.NET Core MVC) <i class="val">85%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">My SQL <i class="val">92%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-mac-line" style="color: #ffbb2c;"></i>
+            <h3>Computer Programming</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-headphone-line" style="color: #5578ff;"></i>
+            <h3>Music</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-gamepad-line" style="color: #e80368;"></i>
+            <h3>Gaming</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-book-open-line" style="color: #e361ff;"></i>
+            <h3>Reading</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-earth-line" style="color: #47aeff;"></i>
+            <h3>Geopolitics</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class='bx bx-dumbbell' style="color: #fae04e;"></i>
+            <h3>Gymming</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-film-line" style="color: #11dbcf;"></i>
+            <h3>Movies</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-line-chart-line" style="color: #4233ff;"></i>
+            <h3>Data Analysis</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-bank-line" style="color: #b2904f;"></i>
+            <h3>Finance</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="bx bx-party" style="color: #b20969;"></i>
+            <h3>Partying</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-plane-line" style="color: #ff5828;"></i>
+            <h3>Travelling</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="bi bi-globe2" style="color: #29cc61;"></i>
+            <h3>Web Deveplopment</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+    <!-- ======= Testimonials ======= -->
+    <div class="testimonials container">
+
+      <div class="section-title">
+        <h2>Articles</h2>
+      </div>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p style="text-align: center;">
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <strong>SQL RANK()</strong> is a window function that assigns a rank to each row in a result set based
+                on specified column values. It handles ties by giving the same rank to equivalent values, ensuring
+                continuous ranking.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <br /><br />
+                <a href="https://www.linkedin.com/pulse/sql-rank-function-explanation-example-pratham-savjani/"><button
+                    type="button" class="btn btn-light"><span style="font-weight: 600;">Read Full Article</span>
+                  </button></a>
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p style="text-align: center;">
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                In SQL queries, choosing <strong>"IF" over "CASE" and "WHEN"</strong> can simplify conditional logic.
+                "IF" is typically used for single conditions, while "CASE" is more versatile, handling multiple
+                conditions.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <br /><br />
+                <a
+                  href="https://www.linkedin.com/posts/prathamsavjani_sql-database-querying-activity-7067086446150492161-JZMs/"><button
+                    type="button" class="btn btn-light"><span style="font-weight: 600;">Read Full Article</span>
+                  </button></a>
+              </p>
+              <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4> -->
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p style="text-align: center;">
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <strong>Search in Rotated Sorted Array II</strong> on LeetCode tackles finding a target value in a
+                rotated sorted array with duplicates, adding complexity to standard binary search due to potential
+                repeated elements.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <br /><br />
+                <a
+                  href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii/solutions/4138974/pivot-element-approach-beats-85/"><button
+                    type="button" class="btn btn-light"><span style="font-weight: 600;">Read Full Article</span>
+                  </button></a>
+              </p>
+              <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4> -->
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p style="text-align: center;">
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <strong>SQL Interview Question:</strong> Detect employees earning more than their managers. Self-join
+                the 'Employees' table, comparing salaries to uncover where an employee's income exceeds that of their
+                manager.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <br /><br />
+                <a
+                  href="https://leetcode.com/problems/employees-earning-more-than-their-managers/solutions/3513514/ms-sql-server-solution-beats-97/"><button
+                    type="button" class="btn btn-light"><span style="font-weight: 600;">Read Full Article</span>
+                  </button></a>
+              </p>
+              <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4> -->
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p style="text-align: center;">
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                "In LeetCode's <strong>'Immediate Delivery Percentage II'</strong> problem, you calculate daily
+                immediate delivery percentages from a dataset, a SQL query task demanding percentage computation."
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <br /><br />
+                <a
+                  href="https://leetcode.com/problems/immediate-food-delivery-ii/solutions/3560999/step-by-step-explanation-with-solution/"><button
+                    type="button" class="btn btn-light"><span style="font-weight: 600;">Read Full Article</span>
+                  </button></a>
+              </p>
+              <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4> -->
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="owl-carousel testimonials-carousel">
+
+      </div>
+
+    </div><!-- End Testimonials  -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Passionate Software Engineer</h4>
+            <p><em>I am a passionate software engineer with expertise in Node.js, React.js, and ASP.NET. Committed to
+                delivering user-friendly solutions, I thrive on tackling complex challenges with a meticulous approach.
+                My continuous pursuit of knowledge drives me to contribute to meaningful projects and make a positive
+                impact.</em></p>
+            <!-- <p>
+            <ul>
+              <li>Portland par 127,Orlando, FL</li>
+              <li>(123) 456-7891</li>
+              <li>alice.barkley@example.com</li>
+            </ul>
+            </p> -->
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>B.E. in Computer Engineering</h4>
+            <h5>2020 - 2024</h5>
+            <p><em>Gujarat Technological University, D.I.E.T ( Rajkot )</em></p>
+            <p>
+              This B.E. in Computer Engineering program merges electrical engineering and computer science, emphasizing
+              the development of computer systems, softwares, apps, and websites.</p>
+          </div>
+          <div class="resume-item">
+            <h4>HIGH SCHOOL</h4>
+            <h5>2018 - 2020</h5>
+            <p><em>Gujarat Higher Secondary Education Board, S.S.S.V ( Jamnagar )</em></p>
+            <p>High school studies typically includes Physics, Chemistry, and Mathematics (PCM) as core subjects, with
+              Computer Studies as an elective subject.</p>
+          </div>
+          <div class="resume-item">
+            <h4>SECONDARY SCHOOL</h4>
+            <h5>2008 - 2018</h5>
+            <p><em>Gujarat Secondary Education Board, S.S.S.V ( Jamnagar )</em></p>
+            <p>Secondary school focused on academic studies and extracurricular activities, provided me with a
+              well-rounded education with real-world learnings.</p>
+          </div>
+          <h3 class="resume-title">Skills</h3>
+          <div class="resume-item">
+            <h4>PROGRAMMING</h4>
+            <p>
+              <span class="badge bg-light text-dark">Java(OOPS)</span>
+              <span class="badge bg-light text-dark">C#</span>
+              <span class="badge bg-light text-dark">Python</span><br />
+              <span class="badge bg-light text-dark">ReactJS</span>
+              <span class="badge bg-light text-dark">C++</span>
+              <span class="badge bg-light text-dark">ShellScript</span><br />
+              <span class="badge bg-light text-dark">MySQL</span>
+              <span class="badge bg-light text-dark">DSA</span>
+              <span class="badge bg-light text-dark">JavaScript</span>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>TOOLS</h4>
+            <p>
+              <span class="badge bg-light text-dark">Git</span>
+              <span class="badge bg-light text-dark">GitHub</span>
+              <span class="badge bg-light text-dark">Visual Studio</span><br />
+              <span class="badge bg-light text-dark">Linux</span>
+              <span class="badge bg-light text-dark">Photoshop</span>
+              <span class="badge bg-light text-dark">Notion</span>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>FRAMEWORKS</h4>
+            <p>
+              <span class="badge bg-light text-dark">ReactJS</span>
+              <span class="badge bg-light text-dark">Bootstrap</span>
+              <span class="badge bg-light text-dark">Entity</span>
+            </p>
+          </div>
+          <h3 class="resume-title">CourseWork</h3>
+          <div class="resume-item">
+            <h4>Academic</h4>
+            <p>
+            <ul>
+              <li>Data Structures and Algorithms</li>
+              <li>Computer Networks</li>
+              <li>Object-Oriented Programming</li>
+              <li>Software Engineering</li>
+              <li>Operating system</li>
+              <li>Database Management System</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item" style="padding: 0 0 1.75px 20px;">
+            <h4>Self Taught</h4>
+            <p>
+            <ul>
+              <li>C (Programming Language)</li>
+              <li>ASP.NET Core MVC (v6.0)</li>
+              <li>ReactJs</li>
+              <li>JavaScript</li>
+              <li>Git and Github</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Exposure</h3>
+          <div class="resume-item">
+            <h4>.NET Core Hackathon</h4>
+            <h5>February 2023</h5>
+            <p><em>Gateway Group, Rajkot</em></p>
+            <p>
+            <ul>
+              <li> Participated in .NET Core Hackathon arranged by Gateway Group.</li>
+              <li>Our team (Tech Titans) made a <strong>Road Safety app</strong> that helps users to avoid
+                accidents.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Hacktoberfest</h4>
+            <h5>October 2022</h5>
+            <p><em>Digital Ocean, GitHub</em></p>
+            <p>
+            <ul>
+              <li>Contributed to various open-source projects in Hacktoberfest.</li>
+              <li>Got merged 2 pull requests out of 4 being made to projects by maintainers.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Ingenium Tech Fest</h4>
+            <h5>June 2020 - September 2020</h5>
+            <p><em>Ahmedabad University, Ahmedabad</em></p>
+            <p>
+            <ul>
+              <li>Served as a Campus Ambassador of our collage in Ingenium Tech Fest organized by Ahmedabad University.
+              </li>
+              <li>Received around 120+ applicants under my lead.</li>
+            </ul>
+            </p>
+          </div>
+          <h3 class="resume-title">Projects</h3>
+          <div class="resume-item">
+            <h4>Magazine Online Store | .NET Core Web App</h4>
+            <h5>March 2023</h5> <a href="https://github.com/PrathamSavjani/MagStack" style="color: white;"
+              target="_blank">
+              <h5 style="background-color: #ff3700;">Repository</h5>
+            </a>
+            <p>
+              Developed e-commerce website for magazine using ASP.NET Core MVC 6.0 with
+              Entity Framework. Implemented N tier architecture & repository pattern for
+              scalability and maintainability. Implemented role-based toggling of functions.
+              Utilized MS SQL (2018) for DB integration.
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>CrashVision Road Safety | .NET Core Web App</h4>
+            <h5>February 2023</h5> <a href="https://github.com/PrathamSavjani/CrashVision-Road-Safety"
+              style="color: white;" target="_blank">
+              <h5 style="background-color: #ff3700;">Repository</h5>
+            </a>
+            <p>
+              Our team participated in The Gateway Corp's 30-hour .NET Hackathon to create a
+              Road Safety app. Developed a website to display accident data on
+              OpenStreetMap with weather info using .NET MVC 6.0, JavaScript, RapidAPI,
+              and MS SQL (2018).
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Honor News | React App</h4>
+            <h5>July 2022</h5> <a href="https://github.com/PrathamSavjani/honor-news" style="color: white;"
+              target="_blank">
+              <h5 style="background-color: #ff3700;">Repository</h5>
+            </a>
+            <p>
+              Created a ReactJS application using NewsAPI to fetch and display real-time top
+              headlines from various media sources. The app updates headlines on an hourly basis and
+              was built with a technology stack including ReactJS, HTML, CSS, and Bootstrap.
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>House Problem Solving | Static Web App</h4>
+            <h5>July 2021</h5> <a href="https://github.com/PrathamSavjani/cllg-project" style="color: white;"
+              target="_blank">
+              <h5 style="background-color: #ff3700;">Repository</h5>
+            </a>
+            <p>
+              Made this concept website to solve the daily household problems that people
+              face.The tech stacks used were: HTML5, CSS3, BOOTSTRAP V4.1, JavaScript.
+            </p>
+          </div>
+          <h3 class="resume-title">Achivements</h3>
+          <div class="resume-item" style="padding: 0 0 0px 20px;">
+            <p>
+            <ul style="list-style: none;">
+              <li>
+                <h5>2021</h5> Got 4 ⭐ in Hacker rank C
+              </li>
+              <li>
+                <h5>2022</h5> Got 3 ⭐ in Hacker rank JAVA.
+              </li>
+              <li>
+                <h5>2022</h5> Skill certificate from hackerrank in Java and SQL.
+              </li>
+              <li>
+                <h5>2022</h5> Certified by NISM India as MFD.
+              </li>
+              <li>
+                <h5>2022</h5> Currently having institutional rank 22 at GFG
+              </li>
+              <li>
+                <h5>2023</h5> Tackled 500+ DSA Questions on GFG, LC and CN
+              </li>
+              <!-- <li><h5>2023</h5> Got certified by Udemy for completion of course on ASP.NET Core (6.0).</li> -->
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div><br />
+      <div class="text-center">
+        <a href="assets/files/PrathamSavjaniResume.pdf" download="PrathamSavjaniResume"><button
+            class="DownloadResume">&nbsp;Download Resume&nbsp;</button></a>
+      </div>
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <!-- <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Lorem Ipsum</a></h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Sed ut perspiciatis</a></h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">Magni Dolores</a></h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section> -->
+  <!--End Services Section -->
+
+  <!-- ======= Projects Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Frontend</li>
+            <li data-filter=".filter-card">Backend</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/CrashVision1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>CrashVision Road Safety</h4>
+              <p>Accident Reporting App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/CrashVision1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="CrashVision Road Safety"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details1.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/AddressBook2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Multi User Address Book</h4>
+              <p>Backend App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/AddressBook2.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Multi User Address Book"><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/MagStack1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Magazine E-Store</h4>
+              <p>E-Commerce App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/MagStack1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Magazine E-Store"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details2.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/HonorNews1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Honor News</h4>
+              <p>News Site</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/HonorNews1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Honor News"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details3.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/MysticPhone1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Mystic Phone</h4>
+              <p>React App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/MysticPhone1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Mystic Phone"><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/hps1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>House Problem Solving</h4>
+              <p>Frontend App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/hps1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="House Problem Solving"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <!-- <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+        </div> -->
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://x.com/prathamsavjani"><svg xmlns="http://www.w3.org/2000/svg" style="fill:white" x="0px"
+                  y="0px" width="22" height="22" viewBox="0 2 20 30">
+                  <path
+                    d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z">
+                  </path>
+                </svg></a>
+              <a href="https://facebook.com/prathamsavjani" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://instagram.com/pratham.savjani" class="instagram"><i class="bi bi-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
+              <a href="https://linkedin.com/in/prathamsavjani" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <a href="mailto:prathamsavjani99@gmail.com">
+              <p>prathamsavjani99@gmail.com</p>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div>
+      </div> -->
+
+        <form method="post" name="contact-form" class="php-email-form mt-4">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    Made by <a href="https://linkedin.com/in/prathamsavjani">Pratham Savjani</a>
+  </div>
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    var canvas = document.getElementById('imageCanvas');
+    var context = canvas.getContext('2d');
+    var image = new Image();
+    image.src = 'assets/img/me.jpg';
+
+    image.onload = function () {
+      context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    };
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx9dern-fSKFz0S0ApLO1s_pVBXIfhtQZTrdU3pgvdmsOP-m3uC7-Hyc-FpibS3k8dK/exec'
+
+    const form = document.forms['contact-form']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => alert("Thank you! your form is submitted successfully."))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
